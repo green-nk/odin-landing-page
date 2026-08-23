@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.header, 
+.footer {
+  background-color: #1f2937;
+  color: #d3d4d7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo a {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #d3d4d7;
+}
