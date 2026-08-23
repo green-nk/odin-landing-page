@@ -15,8 +15,32 @@ body {
   background-color: #1f2937;
   color: #d3d4d7;
   display: flex;
-  justify-content: space-around;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.header {
+  padding: 8px 72px 48px;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.summary {
+  flex: 1;
 }
 
 #logo a {
@@ -24,12 +48,12 @@ body {
   color: #f9faf8;
 }
 
-.nav {
+.nav ul {
   display: flex;
-  gap: 16px;
+  gap: 12px;
 }
 
-.nav li {
+li {
   list-style: none;
 }
 
