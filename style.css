@@ -56,6 +56,16 @@ h2 {
   color: #1F2937;
 }
 
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  max-width: 150px;
+}
+
 .summary {
   flex: 1;
   display: flex;
