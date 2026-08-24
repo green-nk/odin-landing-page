@@ -55,6 +55,24 @@ body {
   flex: 1;
 }
 
+.quote {
+  padding: 84px 148px;
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.quote #content {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote #quoter {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
 h2 {
   margin: 30px 0;
   text-align: center;
