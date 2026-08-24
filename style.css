@@ -49,6 +49,13 @@ body {
   flex-direction: column;
 }
 
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
 .summary {
   flex: 1;
   display: flex;
@@ -80,6 +87,11 @@ button {
 h1 {
   font-size: 48px;
   font-weight: 900;
+}
+
+.summary p {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .summary button {
