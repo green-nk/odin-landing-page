@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-  padding: 12px 96px 64px;
+  padding: 12px 156px 64px;
   flex-direction: column;
   gap: 64px;
 }
@@ -56,13 +56,13 @@ body {
 }
 
 .quote {
-  padding: 84px 148px;
+  padding: 84px 204px;
   background-color: #e5e7eb;
   color: #1f2937;
 }
 
 .action {
-  margin: 72px 96px;
+  margin: 72px 156px;
   padding: 60px 84px;
   background-color: #3983f6;
   border-radius: 8px;
@@ -89,6 +89,7 @@ body {
 }
 
 .quote #quoter {
+  margin: 8px 60px;
   font-size: 18px;
   font-weight: bold;
   text-align: right;
